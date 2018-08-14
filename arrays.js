@@ -6,5 +6,6 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 function addDestructiveElement(array,element){
-  array.upshift(element)
+  array.upshift(element);
+  return 
 }
